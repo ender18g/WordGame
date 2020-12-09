@@ -6,7 +6,7 @@ This is a react website that allows you to create and show puzzles.
 It's a fun game for Zoom or Google Meet video conferences.
 
 See a live version here:
-[https://wordgame-84138.web.app/]
+https://wordgame-84138.web.app/
 
 ## Available Scripts
 
