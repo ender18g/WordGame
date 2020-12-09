@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import { Box, Heading, Image } from '@chakra-ui/react';
 import './App.css';
+import EditPhrases from './EditPhrases';
+import logo from './logo.png';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Box className="App">
+			<Box d="flex" w="100%" p={3} bg="blue.800" direction="row" justifyContent="flex-start" alignItems="center">
+				<Image mr={9} align="flex-start" width="60px" src={logo} />
+				<Heading color="white" fontWeight="light" letterSpacing={4}>
+					Circular Actuator of Fortune
+				</Heading>
+			</Box>
+			<EditPhrases />
+		</Box>
+	);
 }
 
 export default App;
