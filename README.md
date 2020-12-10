@@ -8,6 +8,9 @@ It's a fun game for Zoom or Google Meet video conferences.
 See a live version here:
 https://wordgame-84138.web.app/
 
+![Word Game Screen Shot](
+https://github.com/ender18g/WordGame/blob/main/screen.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
